@@ -1,0 +1,18 @@
+/* ready bonfire */
+:root .ready-3BZNWT {
+    display: none;
+  }
+  
+  :root .ready-3BZNWT+.text-2bYgPB {
+    top: 82px;
+  }
+  
+  :root .ready-3BZNWT+.text-2bYgPB::before {
+    content: "";
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif") center/80% no-repeat;
+  }
