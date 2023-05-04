@@ -1,7 +1,17 @@
+/*
+PUT THIS SNIPPET INTO YOUR QUICKCSS TO CUSTOMISE:
+
+:root {
+    --loading-image: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif");
+}
+
+*/
+
 /* ready bonfire */
 :root video.ready-3BZNWT {
     display: none;
 }
+
 .content-3AIQZv::before {
     content: "";
     display: inline-block;
@@ -9,5 +19,5 @@
     left: 100px; */
     width: 200px;
     height: 200px;
-    background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif") center/80% no-repeat;
+    background: var(--loading-image, url("https://comfy-themes.github.io/Discord/assets/bonfire.gif")) center/80% no-repeat;
 }

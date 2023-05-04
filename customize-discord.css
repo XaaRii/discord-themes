@@ -1,0 +1,35 @@
+@import url(https://discord-theme.pages.dev/assets/snippets/watermark.css);
+
+/*
+PUT THIS SNIPPET INTO YOUR QUICKCSS TO CUSTOMISE:
+
+:root {
+    --watermark: "your discord!";
+    --home-button-image: url("https://i.postimg.cc/52m3zr3n/Pawele-X-transparent.png");
+    --home-button-bg: "transparent";
+    --home-button-size: 100%;
+}
+
+*/
+/* Custom home button */
+#app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .listItem-3SmSlK:first-child .wrapper-3kah-n:before {
+    content: "";
+    position: absolute;
+    background: var(--home-button-image, url("https://i.postimg.cc/52m3zr3n/Pawele-X-transparent.png"));
+    background-color: var(--home-button-bg, transparent) !important;
+    background-size: var(--home-button-size, cover);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease;
+}
+
+.homeIcon-r0w4ny {
+    display: none;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: transparent !important;
+}
