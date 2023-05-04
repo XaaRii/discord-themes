@@ -1,8 +1,18 @@
+/*
+PUT THIS SNIPPET INTO YOUR QUICKCSS TO CUSTOMISE:
+
+:root {
+    --stream-height: fit-content;
+    --stream-width: 450px;
+}
+
+*/
+
 /* Bigger stream previews */
 .previewContainer-35LFgt {
-    height: fit-content;
+    height: var(--stream-height, fit-content);
 }
 
 .streamPreview-I7itZ6 {
-    width: 450px;
+    width: var(--stream-width, 450px);
 }
