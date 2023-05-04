@@ -15,7 +15,7 @@ PUT THIS SNIPPET INTO YOUR QUICKCSS TO CUSTOMISE:
 #app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .listItem-3SmSlK:first-child .wrapper-3kah-n:before {
     content: "";
     position: absolute;
-    background: var(--home-button-image, url("https://i.postimg.cc/52m3zr3n/Pawele-X-transparent.png"));
+    background: var(--home-button-image, url("https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/black_repicthousebase_1484336385-1.png"));
     background-color: var(--home-button-bg, transparent) !important;
     background-size: var(--home-button-size, cover);
     background-repeat: no-repeat;
