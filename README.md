@@ -36,7 +36,7 @@ https://raw.githubusercontent.com/XaaRii/discord-themes/master/neko.css
 It's simple! Just insert this css snippet into your QuickCSS, edit what you want to change and you're ready to go!
 ```css
 :root {
-    /* custom-discord */
+    /* custom-branding */
     --watermark: "your discord!";
     --home-button-image: url("https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/black_repicthousebase_1484336385-1.png");
     --home-button-bg: "transparent";
