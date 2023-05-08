@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/XaaRii/discord-themes/master/neko.css
 
 </br>
 
-### How to customize:
+### How to customize?
 
 It's simple! Just insert this css snippet into your QuickCSS, edit what you want to change and you're ready to go!
 ```css
