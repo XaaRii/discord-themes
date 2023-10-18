@@ -11,25 +11,27 @@ PUT THIS SNIPPET INTO YOUR QUICKCSS TO CUSTOMISE:
 }
 
 */
-/* Custom home button */
-#app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .listItem-3SmSlK:first-child .wrapper-3kah-n:before {
-    content: "";
-    position: absolute;
+
+/* home icon */
+.childWrapper-1j_1ub{
     background: var(--home-button-image, url("https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/black_repicthousebase_1484336385-1.png"));
+    visibility: hidden;
+    background-size: 0%;
+  }
+  
+  [aria-label='Direct Messages'].wrapper-3kah-n {
+    background: var(--home-button-image, url("https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/black_repicthousebase_1484336385-1.png"));
+    position: absolute;
     background-color: var(--home-button-bg, transparent) !important;
-    background-size: var(--home-button-size, cover);
+    background-size: var(--home-button-size, contain);
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
     width: 100%;
     transition: 0.2s ease;
-}
-
-.homeIcon-r0w4ny {
-    display: none;
-}
-
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-.wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background-color: transparent !important;
-}
+  }
+  
+  
+  [class*="acronym"] {
+    visibility: visible !important;
+  }
