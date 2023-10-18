@@ -46,5 +46,8 @@ It's simple! Just insert this css snippet into your QuickCSS, edit what you want
     /* bigger-preview */
     --stream-height: fit-content;
     --stream-width: 450px;
+    /* neko */
+    /* available animations: alert, scratchdown, runleft, runright, wallscratch */
+    --typing-animation: scratchdown;
 }
 ```

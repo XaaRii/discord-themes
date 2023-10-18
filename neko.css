@@ -3,7 +3,7 @@
 
 /*
 PUT THIS :root SNIPPET INTO YOUR QUICKCSS TO CUSTOMISE:
-typing animation: run, runleft, alert, wallscratch, or scratchdown
+typing animation: alert, scratchdown, runleft, runright, wallscratch
 
 :root {
     --typing-animation: scratchdown;
