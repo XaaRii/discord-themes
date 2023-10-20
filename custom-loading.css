@@ -8,15 +8,13 @@ PUT THIS SNIPPET INTO YOUR QUICKCSS TO CUSTOMISE:
 */
 
 /* ready bonfire */
-:root video.ready-3BZNWT {
+video[data-testid="app-spinner"] {
     display: none;
 }
 
-.content-3AIQZv::before {
+div[class*="container-"][class*="fixClipping-"] > [class*="content"]::before {
     content: "";
     display: inline-block;
-    /* bottom: 100px;
-    left: 100px; */
     width: 200px;
     height: 200px;
     background: var(--loading-image, url("https://comfy-themes.github.io/Discord/assets/bonfire.gif")) center/80% no-repeat;
