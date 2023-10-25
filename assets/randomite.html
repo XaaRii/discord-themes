@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Text</title>
+</head>
+<body>
+    <pre id="randomText"></pre>
+
+    <script>
+        // Array of texts
+        var texts = ["Text 1", "Text 2", "Text 3", "Text 4", "Text 5"];
+
+        // Function to get random text
+        function getRandomText() {
+            var randomIndex = Math.floor(Math.random() * texts.length);
+            return texts[randomIndex];
+        }
+
+        // Display random text
+        document.getElementById("randomText").innerHTML = getRandomText();
+    </script>
+</body>
+</html>
