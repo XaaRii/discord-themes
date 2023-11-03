@@ -4,12 +4,12 @@ div[data-list-item-id="guildsnav___home"]>div[class*="childWrapper"]>svg {
   -webkit-animation: animatedBackground 40s ease-in-out infinite;
 }
 
-div[data-list-item-id="guildsnav___home"]:before {
+div[data-list-item-id="guildsnav___home"] {
   background: var(--home-button-image, "");
   content: "";
   position: absolute;
   background-color: transparent !important;
-  background-size: 60%;
+  background-size: 60% !important;
   -webkit-animation: animatedBackground 40s ease-in-out infinite;
   background-position: center;
   background-repeat: no-repeat;
