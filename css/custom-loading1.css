@@ -8,5 +8,5 @@ div[class*="container"][class*="fixClipping"]>[class*="content"]::before {
     display: inline-block;
     width: 200px;
     height: 200px;
-    background: var(--loading-image, url("https://raw.githubusercontent.com/XaaRii/discord-themes/vercel/assets/custom-loading1.gif")) center/80% no-repeat;
+    background: url("https://raw.githubusercontent.com/XaaRii/discord-themes/vercel/assets/custom-loading1.gif") center/80% no-repeat !important;
 }
