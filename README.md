@@ -31,6 +31,13 @@ https://raw.githubusercontent.com/XaaRii/discord-themes/master/neko.css
 
 </br>
 
+#### random
+feeling lucky? Get a random css every time you load discord!
+
+https://raw.githubusercontent.com/XaaRii/discord-themes/master/random.css
+
+</br>
+
 ### How to customize?
 
 It's simple! Just insert this css snippet into your QuickCSS, edit what you want to change and you're ready to go!
