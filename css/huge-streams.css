@@ -1,0 +1,8 @@
+/* Bigger stream previews */
+[class*="previewContainer"] {
+    height: fit-content !important;
+}
+
+[class*="streamPreview"] {
+    width: 900px !important;
+}

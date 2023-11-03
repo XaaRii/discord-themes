@@ -1,0 +1,170 @@
+/* Freaky home button */
+div[data-list-item-id="guildsnav___home"]>div[class*="childWrapper"]>img,
+div[data-list-item-id="guildsnav___home"]>div[class*="childWrapper"]>svg {
+  -webkit-animation: animatedBackground 40s ease-in-out infinite;
+}
+
+div[data-list-item-id="guildsnav___home"]:before {
+  background: var(--home-button-image, "");
+  content: "";
+  position: absolute;
+  background-color: transparent !important;
+  background-size: 60%;
+  -webkit-animation: animatedBackground 40s ease-in-out infinite;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 125% !important;
+  width: 125% !important;
+  transition: 0.2s ease;
+}
+
+@keyframes animatedBackground {
+  0.001% {
+    transform: translate(0, 150%);
+    background-position: center;
+  }
+
+  0.1% {
+    transform: translate(0%, 0%);
+  }
+
+  0.201% {
+    transform: translate(0, 150%);
+  }
+
+  0.3% {
+    transform: translate(0%, 0%);
+  }
+
+  0.4% {
+    transform: translate(0, 150%);
+  }
+
+  5% {
+    transform: translate(150%, 0%);
+  }
+
+  5.5% {
+    transform: translate(-750%, 314%);
+  }
+
+  9.5% {
+    transform: translate(2%, 1%);
+  }
+
+  22% {
+    transform: translate(-1%, -1%);
+  }
+
+  22.25% {
+    transform: translate(2%, 1%);
+  }
+
+  22.75% {
+    transform: translate(-175px, -10px);
+  }
+
+  22.75001% {
+    transform: translate(2%, 1%);
+  }
+
+  23.25% {
+    transform: translate(-175px, -20px);
+  }
+
+  23.25001% {
+    transform: translate(2%, 1%);
+  }
+
+  23.75% {
+    transform: translate(-175px, -40px);
+  }
+
+  23.75001% {
+    transform: translate(2%, 1%);
+  }
+
+  24.25% {
+    transform: translate(-75px, -35px);
+  }
+
+  24.25001% {
+    transform: translate(2%, 1%);
+  }
+
+  24.25% {
+    transform: translate(-7px, -2px);
+    background-position: center;
+  }
+
+  30.75% {
+    transform: translate(-9.5px, -4.5px);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  30.75001% {
+    transform: translate(-9.5px, -4.5px);
+    background-repeat: repeat;
+    background-position: center;
+  }
+
+  37.25% {
+    transform: translate(-2px, -1px);
+    background-repeat: repeat;
+    background-position: center;
+  }
+
+  40.25% {
+    transform: translate(0px, 0px);
+    background-repeat: repeat;
+    background-position: center;
+  }
+
+  40.55% {
+    transform: translate(.3px, .2px);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  55.1% {
+    transform: translate(2%, 1%) rotate(0deg);
+    background-position: 0px 0px;
+    background-position: center;
+  }
+
+  55.7% {
+    transform: translate(20px, 4px) rotate(70deg);
+    background-position: -15px -3px;
+    background-position: center;
+  }
+
+  61.1% {
+    transform: translate(20px, 4px) rotate(180deg);
+    background-position: -15px -3px;
+    background-position: center;
+  }
+
+  61.7% {
+    transform: translate(2%, 1%) rotate(0deg);
+    background-position: 0px 0px;
+    background-position: center;
+  }
+
+  75% {
+    transform: translate(0%, 0%);
+  }
+
+  77% {
+    transform: translate(46%, 10%);
+  }
+
+  80% {
+    transform: translate(1000%, -200%);
+  }
+
+  90% {
+    transform: translate(1000%, -200%);
+    background-position: center;
+  }
+}

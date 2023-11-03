@@ -1,23 +1,24 @@
+/* Activate Discord watermark */
 body::after {
     font-size: 20px;
     content: "Activate Discord";
     position: absolute;
     font-family: 'Noto Sans';
     color: white;
-    opacity: 0.6;
-    bottom: 40px;
-    right: 82px;
+    opacity: 0.5;
+    bottom: 70px;
+    right: 112px;
     pointer-events: none;
 }
 
 div#app-mount::after {
     font-size: 14px;
-    content: "Go to settings to activate Discord.";
+    content: "Go to Settings to activate Discord.";
     position: absolute;
     font-family: 'Noto Sans';
     color: white;
-    opacity: 0.6;
-    bottom: 20px;
-    right: 21px;
+    opacity: 0.5;
+    bottom: 50px;
+    right: 50px;
     pointer-events: none;
 }
