@@ -6,10 +6,9 @@ const cssDirectory = path.join(__dirname, 'css');
 const texts = fs.readdirSync(cssDirectory)
   .filter(file => path.extname(file) === '.css')
   .map(file => fs.readFileSync(path.join(cssDirectory, file), 'utf8'));
-texts.push('');
 
 http.createServer((req, res) => {
   const randomText = texts[Math.floor(Math.random() * texts.length)];
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.writeHead(200, {'Content-Type': 'text/css'});
   res.end(randomText);
 }).listen(process.env.PORT || 8080);
