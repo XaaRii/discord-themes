@@ -1,0 +1,11 @@
+/* shiggy */
+div[class*="sidebar"]>section[class*="panels"]::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    left: 185px;
+    margin-top: -47px;
+    position: absolute;
+    background-image: url('https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=48&name=shiggy%7E1&quality=lossless');
+    pointer-events: none;
+}
