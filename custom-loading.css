@@ -12,7 +12,7 @@ video[data-testid="app-spinner"] {
     display: none;
 }
 
-div[class*="container-"][class*="fixClipping-"] > [class*="content"]::before {
+div[class*="container"][class*="fixClipping"]>[class*="content"]::before {
     content: "";
     display: inline-block;
     width: 200px;

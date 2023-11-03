@@ -9,10 +9,10 @@ PUT THIS SNIPPET INTO YOUR QUICKCSS TO CUSTOMISE:
 */
 
 /* Bigger stream previews */
-.previewContainer-35LFgt {
+[class*="previewContainer"] {
     height: var(--stream-height, fit-content);
 }
 
-.streamPreview-I7itZ6 {
+[class*="streamPreview"] {
     width: var(--stream-width, 450px);
 }
