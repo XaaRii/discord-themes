@@ -1,0 +1,10 @@
+/* original: https://canary.discord.com/channels/1015060230222131221/1028106818368589824/1158034930991906867 */
+@import url("https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/main.css");
+
+/* You can actually customise it to another image/svg in your QuickCSS like this:
+
+:root {
+    --adc-badge: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/180px-Smiley.svg.png");
+}
+
+*/

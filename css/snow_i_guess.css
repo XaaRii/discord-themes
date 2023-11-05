@@ -1,0 +1,28 @@
+/* original: https://canary.discord.com/channels/1015060230222131221/1028106818368589824/1169658881052512367 */
+
+[class^=bg_] {
+  background: url("https://raw.githubusercontent.com/coolesding/shiggycord/v3/img/snow.gif") !important; /* You can use any GIF/PNG/JPEG Link */
+  background-repeat: repeat; /* Adjust if needed (depending on media used) */
+}
+/* Additional Transparency */
+[class^=childWrapper_], /* Discord Home Icon */
+[class*=guilds_], /* Guild List Bar */
+[class^=circleIconButton_],  /* Add Server and Server Discovery */
+[class^=scroller_],  /* Overrides Nitro Themes (for Guild List) */ 
+[class^=typeWindows_], /* Overrides Nitro Themes (for Title Bar) */
+[class^=folder_], [class^=folderIconWrapper_], [class^=expandedFolderBackground_] /*Folders*/ 
+{
+  background: none !important;
+}
+
+/* Additional Recolouring */
+[class^=wordmarkWindows_], /* "Discord" Text */
+[class^=winButton], /* Close Discord Button" Text */
+[class^=circleIcon_] /* Add Server and Server Discovery SVG'S */ {
+    color: #ffffff;
+}
+
+/* Cleanup */
+body, #app-mount/* Overrides Gradient (for Title Bar */ {
+  background: var(--background-tertiary) !important;
+}

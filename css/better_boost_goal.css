@@ -1,0 +1,8 @@
+/* original: https://canary.discord.com/channels/1015060230222131221/1028106818368589824/1143298452361596969 */
+
+@import url(https://seele1306.github.io/Snippets/GuildBoost/import.css);
+:root {
+    --test-color: hsl(88, 74%, 52%);
+    --guildboost-accent-color: 88deg 74% 52%;
+    --guildboost-transparency: 25%;
+}

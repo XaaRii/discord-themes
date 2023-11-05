@@ -1,0 +1,7 @@
+/* original: https://canary.discord.com/channels/1015060230222131221/1028106818368589824/1169203118437834813*/
+
+.anchor_c8ddc0[title$=")"]::after {
+    font-size: 0.7rem;
+    content: " (" attr(href) ")";
+    filter: grayscale(0.4);
+}

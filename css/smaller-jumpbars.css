@@ -1,0 +1,7 @@
+/* original: https://canary.discord.com/channels/1015060230222131221/1028106818368589824/1167371117611188315 */
+/* Make jump to present/jump to original/mark as read bars smaller and hug the right */
+.barBase__4e0ba {
+  width: fit-content;
+  margin-left: auto;
+}
+/* End make jump to present/jump to original/mark as read bars smaller and hug the right */
