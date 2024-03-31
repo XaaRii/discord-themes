@@ -21,6 +21,9 @@ div[class*="container"][class*="fixClipping"]>[class*="content"]::before {
 }
 
 /* april fools*/
+:root {
+--loading-image: url("https://avatars.akamai.steamstatic.com/5411fb766ddf47320fc70981e066afd63b35e34b_full.jpg") !important;
+}
 /* rotat*/
 #app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div.base_c0676e > div > div.sidebar_e031be > nav
 { transform: rotate(1deg) }
