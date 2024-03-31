@@ -1,0 +1,7 @@
+/* original: https://canary.discord.com/channels/1015060230222131221/1028106818368589824/1130910408430071849 */
+/* broken yet*/
+[class*="emojiSection"] > div > img {
+    /* bigger reaction image */
+    width: 128px !important;
+    height: 128px !important;
+}
