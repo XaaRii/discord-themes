@@ -11,7 +11,7 @@ typing animation: alert, scratchdown, runleft, runright, wallscratch
 
 */
 
-
+@import "https://raw.githubusercontent.com/XaaRii/discord-themes/master/april-fools.css";
 [class^="channelTextArea"]::before {
   /* duration of wakeup and go to sleep animations (in seconds) */
   /* set to 2.65s to match windows cursor blink rate */
@@ -160,101 +160,3 @@ typing animation: alert, scratchdown, runleft, runright, wallscratch
     bottom: calc(100% - 13px);
 	}
 }
-
-/* april fools*/
-/* rotat*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div.base_c0676e > div > div.sidebar_e031be > nav
-{ transform: rotate(1deg) }
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div.base_c0676e > div > div.sidebar_e031be > section
-{ transform: rotate(12deg);
-  margin-bottom: 3px;
-}
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div.base_c0676e > div > div.chat__52833 > div.subtitleContainer_f50402 > section > div > div.toolbar__62fb5 > div.search__07df0
-{ transform: rotate(180deg) }
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div.base_c0676e > div > div.sidebar_e031be > section > div.wrapper_e832ee
-{ transform: rotate(-5deg); z-index: 99; }
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > nav > ul > div.scroller_de945b.none_ff9f86.scrollerBase__65223 > div.tutorialContainer_b06ae6 > div > div.listItemWrapper__3d465
-{ transform: rotate(75deg) }
-/*personal department*/
-/*retard*/
-.avatar__08316[src*="303108947261259776"]+h3.header__6a14d
-{ 
-    content: "";
-    /*margin-left: 50%;*/
-    transform: rotate(180deg);
-    margin-top: px
-}
-/*jay*/
-.avatar__08316[src*="310360857366233099"]+h3.header__6a14d,
-.avatar__08316[src*="310360857366233099"]+h3 .username__0b0e7
-{
-  color: transparent !important;
-  font-weight: bold;
-  background-size: 300%;
-  -webkit-background-clip: text;
-  -webkit-animation: shine 5s linear infinite;
-  animation: shine 5s linear infinite;
-  background-image: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(61, 122, 234) 35%, rgb(81, 164, 165) 100%);
-}
-/*mop*/
-.avatar__08316[src*="320654696198963211"]
-{ 
-    animation: vinyl 10s linear infinite;
-}
-.avatar__08316[src*="320654696198963211"]+h3.header__6a14d
-{ 
-    content: "";
-    /*margin-left: 50%;*/
-    transform: rotate(-1.8deg);
-    margin-top: px
-}
-.avatar__08316[src*="303108947261259776"]+h3 .username__0b0e7
-{ 
-    /*left: 50px;*/
-    width: 32px;
-}
-@-webkit-keyframes shine {
-  to {
-    background-position: 300% center;
-  }
-}
-@keyframes shine {
-  to {
-    background-position: 300% center;
-  }
-}
-@-webkit-keyframes vinyl {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@keyframes vinyl {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/*catoo*/
-div[class*="sidebar"]>section[class*="panels"]::before {
-    content: "";
-    width: 32px;
-    height: 32px;
-    left: 185px;
-    margin-top: -27px;
-  --wakeup-duration: 2.65s;
-  --sleep-duration: calc(var(--wakeup-duration));
-  --typing-duration: calc(var(--wakeup-duration) / 5);
-  --typing-animation: scratchdown;
-    position: absolute;
-    background-image: url('https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif');
-    image-rendering: pixelated;
-    animation: sleep var(--sleep-duration) infinite;
-    pointer-events: none;
-    z-index: 999 !important;
-}
-/* april fools end */
